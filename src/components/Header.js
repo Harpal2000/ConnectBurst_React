@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import logoText from "../assets/images/logoText.svg";
 import logo from "../assets/images/logo.png";
 import { Link } from "react-router-dom";
-// import { FaSearch } from "react-icons/fa";
 
 const Header = () => {
 
@@ -21,20 +20,6 @@ const Header = () => {
             </button>
           </Link>
         </div>
-        {/* <div
-          className={`searchBar relative ${
-            isFocused ? "border-[#3a3a3a7c]" : "border-[#3a3a3a7c]"
-          }`}
-        >
-          <FaSearch className="absolute left-3 top-1/2 transform -translate-y-1/2 text-gray-400 text-lg md:text-xl" />
-          <input
-            type="text"
-            className="search_users w-full h-11 rounded-lg pl-10 pr-4 md:w-80 bg-[#3a3a3a7c] border-none outline-none"
-            placeholder="Search..."
-            onFocus={handleInputFocus}
-            onBlur={handleInputBlur}
-          />
-        </div> */}
       </div>
     </>
   );
