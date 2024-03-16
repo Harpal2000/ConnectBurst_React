@@ -1,0 +1,37 @@
+{
+  "name": "connect_burst",
+  "version": "1.0.0",
+  "description": "A social media platform just like instagram and facebook",
+  "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "Connect",
+    "Burst",
+    "Node",
+    "React",
+    "Instagram",
+    "Tailwind",
+    "Facebook"
+  ],
+  "author": "Harpal Singh",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.11.0",
+    "postcss": "^8.4.35",
+    "process": "^0.11.10",
+    "tailwindcss": "^3.4.1"
+  },
+  "dependencies": {
+    "@parcel/transformer-react-refresh-wrap": "^2.12.0",
+    "@splidejs/react-splide": "^0.7.12",
+    "@splidejs/splide": "^4.1.4",
+    "gsap": "^3.12.5",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-icons": "^5.0.1",
+    "react-router-dom": "^6.22.1"
+  }
+}
