@@ -128,9 +128,9 @@ const UserPostSection = () => {
               <FaRegComment className="comment_icon text-xl md:text-4xl" />
             </button>
           </div>
-          <div className="user_caption flex gap-2">
-            <p className="text-white text-lg font-semibold">{user.userName}</p>
-            <p>{user.postCaption}</p>
+          <div className="user_caption flex gap-5 items-center justify-start">
+            <p className="text-white text-lg">{user.userName}</p>
+            <p className="text-white text-sm">{user.postCaption}</p>
           </div>
 
           {showComments && (

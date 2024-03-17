@@ -4,7 +4,7 @@ import { AiOutlineLogout } from "react-icons/ai";
 const LatestUserMessages = () => {
   return (
     <div className="messages bg-[#242424a7] rounded-[20px] p-4">
-      <h1 className="text-2xl text-white font-semibold border-b border-white pb-2 ">
+      <h1 className="text-2xl text-white border-b border-white pb-2 ">
         New Messages
       </h1>
       <div className="user_messages py-3 flex flex-col gap-6">

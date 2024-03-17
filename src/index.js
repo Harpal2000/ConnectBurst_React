@@ -3,7 +3,8 @@ import ReactDOM from "react-dom/client";
 import { createBrowserRouter, RouterProvider, Outlet } from "react-router-dom";
 import Body from "./pages/Body";
 import SplashScreen from "./components/SplashScreen.js";
-import SignUpPage from "./pages/SignUp.js";
+import RegisterPage from "./pages/Register.js";
+import LogInPage from "./pages/Login.js";
 
 const App = () => {
   const [showSplashScreen, setShowSplashScreen] = useState(true);
@@ -37,7 +38,8 @@ const Routes = createBrowserRouter([
     element: <App />,
     children: [
       { path: "/", element: <Body /> },
-      { path: "/signUp", element: <SignUpPage /> },
+      { path: "/register", element: <RegisterPage /> },
+      { path: "/login", element: <LogInPage /> },
     ],
   },
 ]);

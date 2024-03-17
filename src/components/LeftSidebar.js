@@ -19,21 +19,21 @@ const UserProfileSection = () => {
           className="w-20 h-20 rounded-full mr-2"
         />
         <div>
-          <p className="text-white font-bold">Harpal Singh</p>
+          <p className="text-white">Harpal Singh</p>
           <p className="text-[#979696] text-sm">@harpal_ramgariha_</p>
         </div>
       </div>
       <div className="flex gap-10 flex-wrap items-center justify-center w-full">
         <div className="Posts flex flex-col items-center">
-          <h2 className="text-white font-bold text-lg">23</h2>
+          <h2 className="text-white text-lg">23</h2>
           <p className="text-[#979696] text-sm">Posts</p>
         </div>
         <div className="Followers flex flex-col items-center">
-          <h2 className="text-white font-bold text-lg">10K</h2>
+          <h2 className="text-white text-lg">10K</h2>
           <p className="text-[#979696] text-sm">Followers</p>
         </div>
         <div className="Following flex flex-col items-center">
-          <h2 className="text-white font-bold text-lg">140</h2>
+          <h2 className="text-white text-lg">140</h2>
           <p className="text-[#979696] text-sm">Following</p>
         </div>
       </div>

@@ -14,8 +14,8 @@ const Header = () => {
         </div>
 
         <div className="signUp_btn">
-          <Link to="/signUp" className="w-full">
-            <button className="btn text-[#242424] border-none p-2 text-center w-full font-semibold bg-white rounded-md hover:shadow-sm hover:shadow-white">
+          <Link to="/register" className="w-full">
+            <button className="btn text-black border-none p-2 text-center w-full bg-white rounded-md hover:shadow-sm hover:shadow-white">
               SignUp
             </button>
           </Link>
