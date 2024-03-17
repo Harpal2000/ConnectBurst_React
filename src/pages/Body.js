@@ -1,12 +1,14 @@
 import LeftSidebar from "../components/LeftSidebar";
 import MainCenterDiv from "./MainCenterDiv";
 import RightSidebar from "../components/RightSidebar";
+import Header from "../components/Header";
 
 const Body = () => {
 
 
   return (
-    <div>
+    <div id="home-screen">
+      <Header/>
         <div className="main_body w-full flex flex-wrap gap-8 justify-start py-5 mt-20 mb-3 text-[#CACACA]">
           <div className="LeftSidebar w-full lg:w-1/5 xl:w-1/5 hidden lg:block">
             <LeftSidebar />

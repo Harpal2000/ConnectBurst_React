@@ -2,12 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
-body {
-  margin: 0;
-  padding: 1.5rem;
+* {
+  box-sizing: border-box;
+}
+
+body{
   background-color: #040404;
 }
 
-* {
-  box-sizing: border-box;
+#home-screen{
+  margin: 0;
+  padding: 1.5rem;
 }
