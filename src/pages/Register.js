@@ -8,25 +8,28 @@ const SignUp = () => {
     <div>
       <section className="w-full h-screen flex items-center justify-center">
         <div className="container h-full px-6 py-5 lg:w-10/12 ">
-          <div className="flex h-full flex-wrap items-center justify-center lg:justify-between">
+          <div className="flex h-full flex-wrap items-center lg:items-center justify-center lg:justify-between">
             <div className="mb-12 md:mb-0 md:w-8/12 lg:w-6/12">
-              <div className="flex flex-col justify-start items-start">
-                <div className="flex items-center justify-start">
-                  <img
+              <div className="flex flex-col justify-center items-start">
+                <div className="flex">
+                 <div className="flex flex-col lg:gap-36  items-center lg:items-start lg:justify-start">
+                   <Link to="/">
+                     <img
                     src={logo}
                     alt="Company Logo"
-                    className="w-80 h-80 mb-4"
+                    className="w-52 h-52 mb-4"
                   />
-                  <p className="text-center text-5xl text-white leading-[1.5]">
-                    Register <br /> Now to get
-                    <br /> started
+                  </Link>
+                  <p className="text-center lg:text-left lg:pl-10 text-2xl text-white leading-[1.5]">
+                    <span className="text-4xl font-semibold text-[#29AAEB]">Register Now </span><br /> Start your journey with <span className="text-[#29AAEB]">Connect Burst</span><br /> to make connections with world
                     <br />
                   </p>
+                 </div>
                 </div>
               </div>
             </div>
 
-            <div className="md:w-8/12 lg:ms-6 lg:w-5/12">
+            <div className="md:w-8/12 lg:ms-6 w-full lg:w-5/12">
               <form className="">
                 <div className="bg-black mb-4">
                   <div class="relative bg-inherit">

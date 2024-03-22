@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import logoText from "../assets/images/logoText.svg";
 import logo from "../assets/images/logo.png";
+// import logo from "../assets/images/splashLogo.svg";
 import { Link } from "react-router-dom";
 
 const Header = () => {
@@ -15,7 +16,7 @@ const Header = () => {
 
         <div className="signUp_btn">
           <Link to="/register" className="w-full">
-            <button className="btn text-black border-none p-2 text-center w-full bg-white rounded-md hover:shadow-sm hover:shadow-white">
+            <button className="btn text-[#e1e0e0] font-medium border-none p-2 text-center w-full bg-[#29AAEB] rounded-md hover:shadow-sm hover:shadow-white">
               SignUp
             </button>
           </Link>
